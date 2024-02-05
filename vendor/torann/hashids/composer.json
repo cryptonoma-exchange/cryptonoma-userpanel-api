@@ -1,0 +1,22 @@
+{
+    "name": "torann/hashids",
+    "description": "Laravel package for Hashids",
+    "keywords": ["laravel", "hash", "hashid", "encode", "decode"],
+	"license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Daniel Stainback",
+            "email": "torann@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "illuminate/support": "~5.0|~6.0|~7.0",
+        "hashids/hashids": "1.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+          "Torann\\Hashids\\": "src/Torann/Hashids"
+        }
+    }
+}
